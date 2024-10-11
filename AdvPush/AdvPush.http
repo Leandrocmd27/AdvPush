@@ -1,0 +1,6 @@
+@AdvPush_HostAddress = http://localhost:5227
+
+GET {{AdvPush_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
