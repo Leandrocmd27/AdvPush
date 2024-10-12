@@ -21,5 +21,6 @@ public class Cliente
     [Required]
     [StringLength(350)]
     public string? ImagemUrl { get; set; }
+
     public ICollection<Processo> Processos { get; set; }
 }
